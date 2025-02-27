@@ -1,12 +1,12 @@
-University: [ITMO University](https://itmo.ru/ru/)
-Faculty: [FICT](https://fict.itmo.ru)
-Course: [IP-telephony](https://github.com/itmo-ict-faculty/ip-telephony)
-Year: 2024/2025
-Group: K34212
-Author: Kardakov Maxim Dmitrievich
-Lab: Lab1
-Date of create: 27.02.2025
-Date of finished: 28.02.2025
+University: [ITMO University](https://itmo.ru/ru/)<br/>
+Faculty: [FICT](https://fict.itmo.ru)<br/>
+Course: [IP-telephony](https://github.com/itmo-ict-faculty/ip-telephony)<br/>
+Year: 2024/2025<br/>
+Group: K34212<br/>
+Author: Kardakov Maxim Dmitrievich<br/>
+Lab: Lab1<br/>
+Date of create: 27.02.2025<br/>
+Date of finished: 28.02.2025<br/>
 
 ## Отчёт о Лабораторной работе №1 <br/>"Базовая настройка ip-телефонов в среде Сisco packet tracer"
 
@@ -16,27 +16,27 @@ Date of finished: 28.02.2025
 
 ### Цель работы
 
-Изучить рабочую среду Cisco Packet Tracer, ознакомить- ся с интерфейсами основных устройств, типами кабелей, научиться собирать топологию. Изучить построение сети IP-телефонии с помощью маршрутизатора, коммутатора и IP телефонов Cisco 7960 в среде Packet tracer.
+Изучить рабочую среду Cisco Packet Tracer, ознакомиться с интерфейсами основных устройств, типами кабелей, научиться собирать топологию. Изучить построение сети IP-телефонии с помощью маршрутизатора, коммутатора и IP телефонов Cisco 7960 в среде Packet tracer.
 
 ### Ход работы
 
 #### Часть 1. Развёртка базовой схемы сети
 
-В данном задании необходимо было реализовать базовую схему сети, состояющую из 7 конечных устройств (ПК) и 4-х коммутаторов (Switch-PT).  В логической проекции были выставлены устройства, коммутаторы были соеденеы между собой кросс-овер проводами, а от коммутаторов к комьпютерам шли стрейт-форвард провода.
+В данном задании необходимо было реализовать базовую схему сети, состояющую из 7 конечных устройств (ПК) и 4-х коммутаторов (Switch-PT).  В логической проекции были выставлены устройства, коммутаторы были соеденеы между собой кросс-овер проводами, а от коммутаторов к комьпютерам шли стрейт-форвард провода.<br/><br/>
 
-<img title="" src="file:///C:/Users/shuNya19/AppData/Roaming/marktext/images/2025-02-27-19-29-22-image.png" alt="" width="516" data-align="center">
+<img title="" src="https://github.com/user-attachments/assets/a6c1adb7-acdb-4920-adfc-187880ebb480" alt="" width="516"><br/><br/>
 
-Далее необходимо было настроить влан на всех коммутаторах: а именно соотнести интерфейсы, выходящие к ПК, с vlan 1. Также необходимо было перевести интерфейсы между коммутаторами в режим trunk и открыть доступ для вланов.
+Далее необходимо было настроить влан на всех коммутаторах: а именно соотнести интерфейсы, выходящие к ПК, с vlan 1. Также необходимо было перевести интерфейсы между коммутаторами в режим trunk и открыть доступ для вланов.<br/><br/>
 
-<img title="" src="file:///C:/Users/shuNya19/AppData/Roaming/marktext/images/2025-02-27-19-33-10-image.png" alt="" width="580" data-align="center">
+<img title="" src="https://github.com/user-attachments/assets/31ec0e25-7f97-47a8-a745-e303840b47fd" alt="" width="580"><br/><br/>
 
-Для всех компьютеров были выданы адреса в рамках одной сети (192.168.0.10 - 192.168.0.16). Шлюз не было необходимости указывать, так как все устройства в итоге находятся в одной сети.
+Для всех компьютеров были выданы адреса в рамках одной сети (192.168.0.10 - 192.168.0.16). Шлюз не было необходимости указывать, так как все устройства в итоге находятся в одной сети.<br/><br/>
 
-<img title="" src="file:///C:/Users/shuNya19/AppData/Roaming/marktext/images/2025-02-27-19-41-00-image.png" alt="" data-align="center" width="552">
+<img title="" src="https://github.com/user-attachments/assets/f6cab91f-e599-47f9-b89b-27683da212d1" alt="" width="552"><br/><br/>
 
-Все компьютеры и коммутаторы были настроены успешно, после чего была успешно проверена доступность (PC0 -> PC6)
+Все компьютеры и коммутаторы были настроены успешно, после чего была успешно проверена доступность (PC0 -> PC6)<br/><br/>
 
-<img title="" src="file:///C:/Users/shuNya19/AppData/Roaming/marktext/images/2025-02-27-19-42-59-image.png" alt="" width="520" data-align="center">
+<img title="" src="https://github.com/user-attachments/assets/fdc5fe2a-b2e5-4e8e-9b4d-61605c43a0f1" alt="" width="520">
 
 #### Часть 2. Развёртка схемы соединения IP-телефонов
 
