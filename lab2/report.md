@@ -5,7 +5,7 @@ Year: 2024/2025<br/>
 Group: K34212<br/>
 Author: Kardakov Maxim Dmitrievich<br/>
 Lab: Lab1<br/>
-Date of create: 27.02.2025<br/>
+Date of create: 28.02.2025<br/>
 Date of finished: 28.02.2025<br/>
 
 # Отчёт о Лабораторной работе №2 <br/>"Конфигурация voip в среде Сisco packet tracer"
