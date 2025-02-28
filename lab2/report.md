@@ -4,7 +4,7 @@ Course: [IP-telephony](https://github.com/itmo-ict-faculty/ip-telephony)<br/>
 Year: 2024/2025<br/>
 Group: K34212<br/>
 Author: Kardakov Maxim Dmitrievich<br/>
-Lab: Lab1<br/>
+Lab: Lab2<br/>
 Date of create: 28.02.2025<br/>
 Date of finished: 28.02.2025<br/>
 
